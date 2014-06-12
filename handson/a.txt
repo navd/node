@@ -1,0 +1,2 @@
+these are part of simple exercises from handson nodejs book.
+This section dedicates to file operation of nodejs.

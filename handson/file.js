@@ -48,10 +48,16 @@ fs.open(URL,'r',function(err,fd)
 		
 		console.log('Byte Read '+readByte);
 		console.log(readBuffer.toString());
+		
 		}));
 	});
 	return fd;
 
+});
+
+var closeFD=function(fd,(function(){console.log('FD closed')})
+{
+		console.log('called fd to close');
 });
 
 console.log('Exercise 5');

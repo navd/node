@@ -1,0 +1,1 @@
+This package mutes the sensor words.
